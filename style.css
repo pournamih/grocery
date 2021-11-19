@@ -1,0 +1,65 @@
+body{
+  padding: 0%;
+  margin: 0%;
+  background-image: url(https://image.shutterstock.com/image-photo/set-grocery-items-canned-food-260nw-1800669319.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 3%;
+  } 
+
+
+table,tr{
+  border: solid 1px black; 
+  width:auto;
+  border-collapse: collapse;
+  padding: 2px 3px;
+  box-shadow: 0 0 20px rgba(0,0,0,0,1);
+  width: 900px;
+  margin:auto;
+  margin-top: 3%;
+  font-family:cursive;
+  font-size: 23px;
+  cursor: pointer;
+}
+tr{
+background-color: rgb(53, 38, 189);
+width: 50px;
+height: 50px;
+font-size: 27px;
+cursor: pointer;
+}
+tr:hover, tr:focus, tr:active{
+ 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  
+}
+
+td {
+  font-weight:bold;
+  background-color:rgb(109, 192, 175);
+}
+h1{
+ color: black;
+ margin: 0 auto;
+ font-weight: bold;
+font-size: 50px;
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+
+ 
+}
+button{
+ background-color:rgb(85, 138, 102);
+ color:black;
+ cursor: pointer;
+ text-align: center;
+  font-weight:bolder;
+ font-size: 25px;
+}
+button:hover, button:focus, button:active{
+ 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
